@@ -10,6 +10,7 @@ average = float(sum/num)
 print(f"The user entered Numbers {numbers}")
 print(f"The sum of the entered number is {sum}")
 print(f"The average of the entered number is {average}")
+print("largest element in the list is :", max(numbers), "\nsmallest element in the list is:", min(numbers))
 
 
 
