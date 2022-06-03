@@ -1,4 +1,11 @@
 import os
+os.mkdir("help")
+
+#getting the current directory info
+print(os.getcwd())
+os.rename('admin','admin1')
+
+
 #renaming the file name
 if os.path.exists('newfile.txt'):
     os.rename('newfile.txt', 'rename.txt')
