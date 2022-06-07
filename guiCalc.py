@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
+#function for the button
 def clicked():
     num1 = int(txt1.get())
     num2 = int(txt2.get())
@@ -17,6 +18,7 @@ lbl2 = Label(win, text="Enter second Number", font=("Arial Bold", 15))
 lbl2.grid(column=2,row=3)
 txt2 = Entry(win, width=30)
 txt2.grid(column=2, row=4)
+#operational button with function name lincked with command
 btn = Button(win, text="Calculate", bg="yellow", fg="red", command=clicked)
 btn.grid(column=2, row=5)
 lbl = Label(win, text="")
