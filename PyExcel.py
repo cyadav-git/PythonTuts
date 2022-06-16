@@ -58,7 +58,7 @@ def insert():
         print("empty input")
     else:
         current_row = sheet.max_row
-        current_column = sheet.max.column
+        current_column = sheet.max_column
 
         sheet.cell(row=current_row + 1, column=1).value = name_field.get()
         sheet.cell(row=current_row + 1, column=2).value = course_field.get()
@@ -127,7 +127,7 @@ if __name__ == "__main__":
 
     email_id_field.bind("<Return>", focus6)
 
-    address_field.bind("<Return>", focus7)
+   #address_field.bind("<Return>", focus7)
 
     name_field.grid(row=1, column=1, ipadx="100")
     course_field.grid(row=2, column=1, ipadx="100")
